@@ -56,15 +56,5 @@
     "clean": "rimraf .nyc_output public/assets coverage report",
     "cleanall": "rimraf node_modules bower_components",
     "precleanall": "npm run clean"
-  },
-  "nyc": {
-    "//": "babel-plugin-istanbulでinstrumentを埋め込むのでnyc側は無効にする",
-    "instrument": false,
-    "sourceMap": false,
-    "reporter": [
-      "lcov",
-      "text",
-      "html"
-    ]
   }
 }
