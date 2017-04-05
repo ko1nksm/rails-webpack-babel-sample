@@ -32,7 +32,7 @@
     "mocha-jsdom": "^1.1.0",
     "moment": "^2.15.1",
     "node-sass": "^3.10.1",
-    "nyc": "^8.3.1",
+    "nyc": "^10.2.0",
     "phantomjs-prebuilt": "^2.1.13",
     "plato": "^1.7.0",
     "power-assert": "^1.4.1",
